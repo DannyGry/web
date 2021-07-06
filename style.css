@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-color: black;
+    position: fixed;
+    width: 100% ;
+    margin: auto;
+    height: 95px;
+    font-family: 'Roboto', sans-serif;
+    z-index: 14;
+}
+.flexwrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 25px;
+}
+.container{
+    max-width: 1062px;
+    margin: auto;
+}
+.macc{
+    background-position: center;
+    height: 744px;
+    background-image: url(images/mac.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.centertext{
+    padding-top: 229px;
+    height: 221px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    max-width: 583px;
+    margin: auto;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+}
+.about{
+    color: white;
+    font-weight: 500;
+    border-bottom: solid 1px white;
+}
+.mac{
+    width: 100%;
+    height: 744px;
+}
+.mach1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 64px;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+.macp{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+    width: 504px;
+    font-size: 18px;
+    max-width: 504px;
+    text-align: center;
+    line-height: 140%;
+    margin-bottom: 30px;
+}
+.gs{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    background-color: #00AFDB;
+    color: white;
+    padding: 18px 48px 18px 48px;
+}
+.gs:hover{
+    background: #009CC2;
+}
+.links{
+    position: absolute;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 403px;
+}
+.idea{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0 132px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+.h2ppl{
+    max-width: 367px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #373737;
+}
+.pplp{
+    color: #4E4E4E;
+    font-weight: normal;
+    max-width: 407px;
+    margin-top: 26px;
+    line-height: 140%;
+}
+.pplbtn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #00AFDB;
+    color: white;
+    padding: 18px 48px 18px 48px;
+    margin-top: 40px;
+}
+.pplbtn:hover{
+    background: #009CC2;
+}
+.slider{
+    background-color: #F5F6F7;
+    position: relative;
+    overflow: hidden;
+}
+.oc{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #373737;
+    letter-spacing: 2.4px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.sliderp{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #4E4E4E;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 140%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 175px;
+    max-width: 298px;
+    padding-top: 155px;
+    padding-bottom: 320px;
+}
+.containerspecial{
+    max-width: 1062px;
+    margin: auto;
+    position: relative;
+}
+.right{
+    color: #373737;
+    margin-left: 14px;
+}
+.left{
+    color: #373737;
+    margin-right: 14px;
+}
+.onetofive{
+    color: #373737;
+}
+.sliderrightandleft{
+    position: absolute;
+    z-index: 4;
+    right: 0px;
+    top: 82px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.one, .five{
+    color: #373737;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+.divider{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.right:hover{
+    color: #373737;
+    opacity: 50%;
+}
+.left:hover{
+    color: #373737;
+    opacity: 50%;
+}
+.differentimages{
+    position: absolute;
+    top: 118px;
+    left: 50%;
+    transform: translateX(-139px);
+    width: 1250px;
+    height: 244px;
+    z-index: 1;
+    display: flex;
+}
+.margin{
+    margin-right: 30px;
+}
+.irc{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0 132px;
+    font-family: 'Roboto', sans-serif;
+}
+.irch2{
+    max-width: 298px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #373737;
+}
+.ircp{
+    color: #4E4E4E;
+    font-weight: normal;
+    max-width: 407px;
+    margin-top: 26px;
+    line-height: 140%;
+}
+.ircbtn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #00AFDB;
+    color: white;
+    padding: 18px 48px 18px 48px;
+    margin-top: 40px;
+}
+.irctext{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 407px;
+    padding-top: 155px;
+    margin-right: 109px;
+}
+.ircbtn:hover{
+    background: #009CC2;
+}
+.signup{
+    height: 524px;
+    background-image: url(images/lastpng.png);
+    background-size: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+.sign{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.txt{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    background-color: white;
+    border: solid 1px white;
+    padding: 12px 120px 12px 20px;
+}
+.smt{
+    padding: 16px 24.5px 16.8px 25px;
+    background-color: #00AFDB;
+}
+input{
+    outline: none;
+}
+.conent{
+    display: flex;
+}
+.e-mail{
+    border: none;
+    border-radius: 0;
+    width: 340px;
+    height: 46px;
+    padding-left: 24px;
+}
+.reg{
+    
+    border: none;
+    border-radius: 0;
+    background-color: #00AFDB;
+    width: 66px;
+    height: 46px;
+}
+.reg:hover{
+    background-color: #009CC2;
+}
+.e-mail::placeholder{
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.containerdta{
+    max-width: 1062px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dta{
+    height: 464px;
+    background-color: #F5F6F7;
+}
+.dtah2{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: #373737;
+    margin-bottom: 20px;
+    margin-top: 120px;
+}
+.dtap{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #4E4E4E;
+    max-width: 480px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.apple::after{
+    content: '';
+    display: inline-block;
+    width: 59px;
+    height: 46px;
+    background-color: #009CC2;
+    margin-left: 18px;
+    background-image: url(images/icon-apple.svg);
+    background-repeat: no-repeat;
+    background-position-x: 21px;
+    background-position-y: 12px;
+    margin-bottom: -18px;
+}
+.apple{
+    background-color: #00AFDB;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    padding: 15px 0px 15px 18px;
+    line-height: 46px;
+    margin-right: 10px;
+}
+.andrd{
+    background-color: #00AFDB;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    padding-left: 16px;
+    line-height: 46px;
+    padding: 15px 0px 15px 18px; 
+    margin-left: 10px; 
+}
+.andrd::after{
+    content: '';
+    display: inline-block;
+    width: 59px;
+    height: 46px;
+    background-color: #009CC2;
+    margin-left: 18px;
+    background-image: url(images/icon-android.svg);
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: 11px;
+    margin-bottom: -18px;
+}
+.apple:hover{
+    background: #009CC2;
+}
+.andrd:hover{
+    background: #009CC2;
+}
+footer{
+    background-color: black;
+    height: 185px;
+}
+.globe{
+    margin-right: 71px;
+}
+.containerftr{
+    max-width: 1062px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+.ftrp{
+    color: #818181;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+.ftrnav{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+.ftra{
+    color: white;
+}
+.ftrsa{
+    color: white;
+}
+.ftra:after{
+    content: '|';
+    color: #4E4E4E;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+
+
+
+@media (max-width: 1024px) { /* Laptop */ 
+    .container.irc, .containerspecial, .container.idea{
+        max-width: 90%;
+    }
+    .containerftr{
+        justify-content: space-around;
+    }
+    .irctext{
+        margin-right: 0;
+    }
+    
+}
+@media (max-width: 1180px) {
+    .differentimages{
+        left: 60%;
+    }
+    .container.irc, .containerspecial, .container.idea{
+        max-width: 90%;
+    }
+}
+@media (max-width: 1030px) {
+}
+@media (max-width:920px) {
+    .macp{
+        font-size: 16px;
+    }
+    .pplp{
+        padding-right: 40px;
+    }
+    .ircp, .irch2{
+        padding-left: 30px;
+    }
+    .ircbtn{
+        margin-left: 30px;
+    }
+}
+@media (max-width: 768px) { /* Tablet */ 
+    .mach1{
+        max-width: 444px;
+        text-align: center;
+        font-size: 60px;
+    }
+    .differentimages{
+        left: 70%;
+    }
+}
+@media (max-width: 525px) {
+    .ircbtn, .pplbtn{
+        padding: 18px;
+    }
+} 
+@media (max-width: 425px) { /* Mobile L */
+    .flexwrapper{
+        justify-content: space-evenly;
+    }
+    .mach1{
+        max-width: 311px;
+        font-size: 55px;
+    }
+    .macp{
+        max-width: 350px;
+    }
+    .container.idea{
+        flex-direction: column;
+    }
+    .pplp{
+        padding-right: 0;
+        text-align: center;
+    }
+    .h2ppl{
+        margin: 0;
+        text-align: center;
+    }
+    .pplbtn{
+        padding: 18px 155px 18px 161px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .container.irc{
+        flex-direction: column;
+    }
+    .irctext{
+        padding-top: 30px;
+        align-items: center;
+    }
+    .ircbtn{
+        margin-left: 0;
+    }
+    .ircp, .irch2{
+        text-align: center;
+        padding: 0;
+    }
+}
